@@ -1,0 +1,226 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+html,
+body {
+  margin:0;
+  padding:0;
+  background-color:black;
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  max-width:100%;
+  height:auto;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+div {
+  display:block;  
+}
+.div-test {
+  margin-left:auto;
+  margin-right:auto;
+  padding:64px 64px 64px 64px;
+}  
+#text-milad{
+  margin:0;
+  animation-name: rainbow;
+  animation-duration: 10s;
+  animation-iteration-count:infinite;
+  font-family: 'Grape Nuts', cursive;
+  font-size:70px
+}
+  @keyframes rainbow {
+    0% {
+      color: gold;
+    }
+    50% {
+     color: silver;
+    }
+    100% {
+      color: gray;
+    }
+  }
+.content{
+  margin:-600px 0px 0px 25px;
+  width:50%;
+  height:auto;
+  font-size:25px;
+}
+@media screen and (max-width: 1500px) {
+  .content {
+    margin:-300px 0px 0px 5px;
+    width:50%;
+    hight:auto;
+    float: none;
+    font-size:20px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .content {
+    /*
+    margin:-300px 0px 0px 5px;
+    */
+    margin:auto;
+    width:auto;
+    hight:auto;
+    float: none;
+    font-size:20px;
+    width: 100%;
+  }
+}
+
+#watch-my-video{
+font-family: 'Grape Nuts', cursive; 
+  font-size:40px; 
+}
+
+#video-title{
+  font-family: 'Grape Nuts', cursive;
+  margin:300px 0px 0px 25px;
+  font-size:70px    
+}
+@media screen and (max-width: 992px) {
+  #video-title {
+    margin:200px 0px 0px 5px;
+    font-size:40px
+  }
+}
+
+#video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:30px;
+  margin-top:30px;
+  width: 40%;
+  border-color: gold;
+  border-width: 5px;
+  border-style: solid;
+}
+@media screen and (max-width: 992px) {
+  #video {
+    width: auto;
+  }
+}
+#image{
+  display: block;
+  margin-top:-300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  opacity: 0.3;
+}
+@media screen and (max-width: 992px) {
+  #image {
+    width: 100%;
+  }
+}
+#form{
+  text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    border: 5px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+ border: 3px solid gray;
+   padding: 30px;
+ font-size : 15px
+}
+
+#area{
+  font-family: 'Quicksand', sans-serif;
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+@media screen and (max-width: 992px) {
+  #form {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    }
+}
+#submit{
+  background-color: #537895;
+background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+ font-family: 'Quicksand', sans-serif;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#contact-me{
+  color:gray;
+  margin-left: 300px;
+}
+@media screen and (max-width: 992px) {
+  #contact-me {
+    margin-left: 5px;
+    }
+}
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.c-site-footer{
+  background-color: #f9d29d;
+background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+  width:auto;
+  hight:auto;
+  padding:20px 20px 20px 20px;
+  margin-top:20px
+}
+#video-title-text{
+ margin-left:25px; 
+ font-size:20px; 
+}
+@media screen and (max-width: 992px) {
+  #video-title-text {
+    margin-left: 5px;
+    }
+}
+    
